@@ -1,0 +1,376 @@
+		* {
+			box-sizing: border-box;
+			font-family: roboto;
+		}
+
+		body {
+			background-color:black;
+		}
+
+				* {
+			box-sizing: border-box;
+		}
+
+		body {
+			height: 100vh;
+			margin: 0px;
+		}
+		
+		.firsth{
+			text-align:center;
+			margin-top:67px;
+			margin-left:30px;
+			margin-right: 30px;
+			font-size:29px;
+		}
+		
+		p10{
+			font-weight:;
+			font-size:18px;
+		}
+		
+		p11{
+			margin-left:60px;
+			margin-right: 60px;
+		}
+		
+		.top-section {
+			width: 100%;
+			height: 360px;
+			position: relative;
+		}
+		.top-section img {
+			position: absolute;
+			top:0;
+			left:0;
+			width: 100%;
+			height: 100%;
+			z-index: 1;
+		}
+		.header {
+			width: 100%;
+			height: 50px;
+			position: relative;
+			z-index: 2;
+			display: flex;
+			align-items: center;
+			padding: 0px 10px;
+			background: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0))
+		}
+
+		.header .right {
+			position: absolute;
+			right: 10px;
+			margin-top:20px;
+		}
+
+		.header select {
+			height: 30px;
+			width:88px;
+			background: transparent;
+			border: 1px solid white;
+			border-radius: 2px;
+			color: white;
+		}
+
+		/*.header button {
+			color: white;
+			height: 80%;
+			border-radius: 4px;
+			background: #E53935;
+			border: none;
+			padding: 3px 10px;
+			margin-left: 5px;
+		}*/
+		.nflogo {
+			margin-left:20px;
+			margin-top:10px;
+		}
+		.t {
+			width: 100px;
+			height: 40px
+		}
+		.bottom {
+			position: absolute;
+			top: 50px;
+			height: calc(100% - 50px);
+			z-index: 10;
+			color: white;
+		}
+		
+		.signin {
+			/*color: white;
+			height: 80%;
+			border-radius: 4px;
+			background: #E53935;
+			border: none;
+			padding: 3px 10px;
+			margin-left: 5px;*/
+			color:white;
+			background-color:#E50813;
+			border:none;
+			border-radius:3px;
+			height:27px;
+			width:60px;
+			margin-left:10px;
+			margin-right:10px;
+		}
+		
+		.signin:hover {
+	opacity:0.7;
+	transition: opacity 0.30s;
+}
+
+		.signin:active {
+	opacity:0.7;
+	transition: opacity 0.30s;
+}
+
+p9{
+	color:white;
+}
+
+		p8 {
+			color:#E30814;
+			font-family:900;
+		}
+		
+		.get {
+			color: white;
+			background-color: #E50813;
+			border-radius: 3px;
+			border: none;
+			height: 40px;
+			width: 150px;
+			margin-right: 20px;
+			margin-bottom: 20px;
+			text-align: center;
+			font-size: 17px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		
+		.get:hover {
+			opacity: 0.8;
+			transition: opacity 0.15;
+		}
+		
+		.get:active {
+			opacity: 0.8;
+			transition: opacity 0.15;
+		}
+		
+		.email {
+			height: 40px;
+			width: 300px;
+			margin: 20px;
+		}
+		
+		.email:hover {
+			border-color: blue;
+		}
+		
+			.enjoy {
+		color:white;
+		text-align:center;
+		margin-top:70px;
+	}
+	
+	.enjoyh2{
+		margin-left:15px;
+		margin-right:15px;
+		margin-top:45px;
+	}
+	p1 {
+		font-size:20px;
+		font-weight:400;
+	}
+	
+	.tv1 {
+		margin-top:25px;
+		margin-bottom:40px;
+	}
+		.down {
+		color:white;
+		text-align:center;
+		margin-left:15px;
+		margin-right:15px;
+	}
+	
+	.downh {
+		margin-top:40px;
+	}
+	p2 {
+		font-size:20px;
+		font-weight:400;
+	}
+	
+	.phone1 {
+		margin-top:20px;
+		margin-bottom:50px;
+	}
+		.watch {
+		color:white;
+		text-align:center;
+		margin-left:15px;
+		margin-right:15px;
+		font-size:18px;
+		}
+	
+	.watchh {
+		margin-top:40px;
+	}
+	p3 {
+		font-size:17px;
+		font-weight:400;
+	}
+	
+	.tv2 {
+		margin-top:20px;
+		margin-bottom:40px;
+		}
+		.kids {
+			color: white;
+			text-align: center;
+			margin-left: 15px;
+			margin-right: 15px;
+		}
+	
+		.kidsh {
+			margin-top: 40px;
+			font-weight: bold;
+		}
+	
+		p3 {
+			font-size: 18px;
+			font-weight: 400;
+			/*margin-left:px;
+			margin-right:px*/
+		}
+	
+		.kidsimg {
+			margin-top: 20px;
+			margin-bottom:40px;
+		}
+		p4 {
+			color: white;
+			display: block;
+			margin-top: 20px;
+			margin-left: 40px;
+			margin-right: 40px;
+			font-weight: 400;
+			font-size: 20px;
+			text-align: center;
+		}
+		
+		.freqh {
+			color: white;
+			text-align: center;
+			margin-left: 40px;
+			margin-right: 40px;
+		}
+		
+		.accordion {
+			background-color: #303030;
+			border: 2px solid black;
+			color: white;
+			cursor: pointer;
+			padding: 18px;
+			width: 100%;
+			text-align: left;
+			outline: none;
+			font-size: 15px;
+			transition: 0.4s;
+		}
+		
+		.active,
+		.accordion:hover {
+			background-color: #303030;
+		}
+		
+		.accordion:after {
+			content: '\002B';
+			color: white;
+			font-weight: bold;
+			float: right;
+			margin-left: 5px;
+		}
+		
+		.active:after {
+			content: "\2212";
+		}
+		
+		.panel {
+			padding: 0 18px;
+			background-color: white;
+			max-height: 0;
+			overflow: hidden;
+			transition: max-height 0.2s ease-out;
+			background-color: #303030;
+			border: 2px solid black;
+		}
+		
+		.get {
+			color: white;
+			background-color: #E50813;
+			border-radius: 3px;
+			border: none;
+			height: 40px;
+			width: 150px;
+			margin-right: 20px;
+			margin-bottom: 20px;
+			text-align: center;
+			font-size: 17px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		
+		.get:hover {
+			opacity: 0.8;
+			transition: opacity 0.15;
+		}
+		
+		.get:active {
+			opacity: 0.8;
+			transition: opacity 0.15;
+		}
+		
+		.email {
+			height: 40px;
+			width: 300px;
+			margin: 20px;
+		}
+		
+		.email:hover {
+			border-color: blue;
+		}
+				.lastdiv{
+			 margin-top:40px;
+		}
+		
+		.madeby {
+			color:#515151;
+			font-size:10px;
+		}
+		
+		.fbn {
+			color:#515151;
+			font-size:9px;
+		}
+		.fbndiv {
+			margin-top:10px;
+		}
+		
+		a {
+			text-decoration:none;
+		}
+		
+		.graybox {
+			background-color:#222222;
+			height:9px;
+			width:100%;
+		}
+		
+		
