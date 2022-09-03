@@ -20,15 +20,6 @@ body{
 	color:#D7DCD8;
 }
 
-.div-3 {
-	height:120px;
-	width:310px;
-	background-color:#eef0f2;
-	border:1px solid white;
-	border-radius:4px;
-	cursor:pointer;
-}
-
 h1 {
 	color:#00203F;
 	text-align:center;
@@ -42,27 +33,65 @@ h1 {
 	margin-bottom:20px;
 }
 
+
+/*--Netflix Part--*/
+
+.div-1 {
+	height:120px;
+	width:310px;
+	background-color:#eef0f2;
+	border:1px solid white;
+	border-radius:4px;
+	cursor:pointer;
+	
+		/*Division Center2.0 part*/
+	
+	margin:auto;
+	margin-bottom: 0px;
+	margin-top:20px;
+	
+}
+
 .netflixh {
 	color:#1A1C1B;
 	margin-top:10px;
 	padding-right:155px;
 	margin-bottom:10px;
+	margin-left:10px;
+
 }
 
 
-p1{
+.netflixd{
 	color:#1A1C1B;
-	margin-left:10px;
 	text-align:center;
 }
 
-.div-4 {
+.netflixdd {
+		margin-left:20px;
+
+}
+
+/*--Netflix Part Ends here--*/
+
+/*--Demo Login Part--*/
+
+
+.div-2 {
 	height:120px;
 	width:310px;
 	background-color:#eef0f2;
 	margin-top:20px;
 	border:1px solid #2F2F34;
 	border-radius:4px;
+	
+	/*Division Center2.0 part*/
+	
+	margin:auto;
+	margin-bottom: 0px;
+	margin-top:20px;
+	
+	/*ends here*/
 }
 
 .loginh {
@@ -70,12 +99,19 @@ p1{
 	margin-top:10px;
 	margin-bottom:10px;
 	padding-right:145px;
+	margin-left:10px;
 }
 
-p2{
+.logind{
 	color:#00203F;
-	margin-left:10px;
 	text-align:center;
 	/*display:flex;
 	justify-content:center;*/
 }
+
+.logindd{
+	margin-left:20px;
+}
+
+/*--Demo Login Part End here--*/
+
