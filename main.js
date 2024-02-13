@@ -1,1 +1,4 @@
-console.log('Hello World!');
+function textAlert() {
+	window.alert("This feature is not yet available 😕");
+}
+
