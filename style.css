@@ -18,11 +18,14 @@ nav {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-
 }
 
 .fi-rr-settings {
 	font-size: 26px;
+	position: relative;
+	left: 30px;
+	opacity: 0.9;
+	bottom: 17px;
 }
 
 .logo-text {
