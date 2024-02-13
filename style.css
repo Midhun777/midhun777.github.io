@@ -1,0 +1,86 @@
+body {
+	margin: 0;
+	background-color: #0F172A;
+	color: white;
+	font-family: monospace;
+	font-family: "Chivo", sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+nav {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.fi-rr-settings {
+	font-size: 26px;
+}
+
+.logo-text {
+	font-weight: 600;
+	font-size: 30px;
+	margin-top: 58px;
+
+}
+
+.project-text {
+	margin: auto;
+	margin-bottom: 30px;
+	margin-top: 18px;
+	width: 85%;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.container {
+	width: 100%;
+	margin-top: 50px;
+}
+
+.card {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 70px;
+	width: 85%;
+	background-color: #1E293B;
+	border-radius: 6px;
+	margin: auto;
+	margin-top: 25px;
+}
+
+/*
+
+.arrow {
+	margin: auto;
+	margin-left: 120px;
+	height: 57px;
+	width: 57px;
+	position: relative;
+}
+
+*/
+
+.card-text {
+	font-weight: 400;
+	font-size: 19px;
+	/*
+	position: relative;
+	left: 30px;
+	top: 26px;
+	*/
+	text-wrap: nowrap;
+}
+
+.beta {
+	font-weight: 300;
+}
