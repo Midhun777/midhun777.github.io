@@ -6,6 +6,8 @@ body {
 	font-family: "Chivo", sans-serif;
 	font-optical-sizing: auto;
 	font-style: normal;
+	height: 100%;
+	width: 100%;
 }
 
 a {
@@ -93,7 +95,6 @@ nav {
 	font-weight: 600;
 	font-size: 30px;
 	margin-top: 58px;
-	margin-left: 27px;
 }
 
 .project-text {
@@ -123,25 +124,16 @@ nav {
 }
 
 /*
-
 .arrow {
 	margin: auto;
-	margin-left: 120px;
 	height: 57px;
 	width: 57px;
-	position: relative;
 }
-
 */
 
 .card-text {
 	font-weight: 400;
 	font-size: 19px;
-	/*
-	position: relative;
-	left: 30px;
-	top: 26px;
-	*/
 	text-wrap: nowrap;
 }
 
