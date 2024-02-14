@@ -31,7 +31,9 @@ nav {
 }
 
 .menu {
-	position: absolute;
+	position: fixed;
+	top: calc(50%-200px);
+	left: calc(50%-140px);
 	border: 1px solid #fff;
 	border-radius: 5px;
 	height: 400px;
@@ -41,6 +43,7 @@ nav {
 	backdrop-filter: blur(5px);
 	background-color: #1E293BCF;
 	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(256, 256, 256, 0.35) 0px -2px 6px 0px inset;
+	
 }
 
 .menu-icon {
