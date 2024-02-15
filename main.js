@@ -1,7 +1,3 @@
-function textAlert() {
-	window.alert("This feature is not yet available 😕");
-}
-
 let menuSrc = document.querySelector(".menu");
 let settingsSrc = document.querySelector(".settings");
 let backgroundSrc = document.querySelector(".body");
