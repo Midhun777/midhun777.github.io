@@ -11,8 +11,6 @@ theme.onclick = function() {
 }
 
 
-
-
 function menuOpenFuncion() {
 	menuSrc.style.display = "block";
 	settingsSrc.style.display = "none";
