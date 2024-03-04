@@ -161,3 +161,11 @@ footer i {
 	margin: 10px;
 	opacity: 0.9;
 }
+
+.new {
+	position: relative;
+	bottom: 24px;
+	left: 38px;
+	font-size: 13px;
+	opacity : 0.6;
+}
