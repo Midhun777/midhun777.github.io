@@ -17,7 +17,6 @@ theme.onclick = function() {
 	}
 }
 
-
 function menuOpenFuncion() {
 	menuSrc.style.display = "block";
 	settingsSrc.style.display = "none";
@@ -26,13 +25,4 @@ function menuOpenFuncion() {
 function menuCloseFuncion() {
 	menuSrc.style.display = "none";
 	settingsSrc.style.display = "block";
-}
-
-function lightMode() {
-	backgroundSrc.style.backgroundColor = "#FAFAFA";
-	backgroundSrc.style.color = "#484B6A";
-	cardSrc.style.color = "#484B6A";
-	cardSrc.style.backgroundColor = "#E5E5F1";
-	menuSrc.style.backgroundColor = "#E5E5F1E6";
-	icon.style.color = "#484B6A";
 }
