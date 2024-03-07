@@ -1,9 +1,5 @@
 let menuSrc = document.querySelector(".menu");
 let settingsSrc = document.querySelector(".settings");
-let backgroundSrc = document.querySelector(".body");
-let cardSrc = document.querySelector(".card");
-let icon = document.querySelector("i");
-
 var theme = document.getElementById('theme');
 
 theme.onclick = function() {
