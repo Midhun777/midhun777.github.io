@@ -37,12 +37,19 @@ nav {
 	justify-content: center;
 }
 
+h1,
+span,
+i {
+	color: var(--font-color);
+}
+
 .menu {
 	position: fixed;
 	border: 1px solid var(--font-color);
 	border-radius: 5px;
 	height: 400px;
 	width: 280px;
+	z-index: 999;
 	text-align: right;
 	background: transparent;
 	backdrop-filter: blur(5px);
@@ -65,7 +72,7 @@ nav {
 	border: none;
 	background: none;
 	color: white;
-	border: 1px solid white;
+	border: 1px solid var(--font-color);
 	border-radius: 5px;
 	height: 50px;
 	width: 150px;
@@ -166,5 +173,5 @@ footer i {
 	bottom: 24px;
 	left: 38px;
 	font-size: 13px;
-	opacity : 0.6;
+	opacity: 0.6;
 }
