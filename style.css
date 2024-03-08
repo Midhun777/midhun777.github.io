@@ -135,14 +135,6 @@ i {
 	margin-top: 25px;
 }
 
-/*
-.arrow {
-	margin: auto;
-	height: 57px;
-	width: 57px;
-}
-*/
-
 .card-text {
 	font-weight: 400;
 	font-size: 19px;
@@ -171,7 +163,7 @@ footer i {
 .new {
 	position: relative;
 	bottom: 24px;
-	left: 38px;
+	left:67px;
 	font-size: 13px;
 	opacity: 0.6;
 }
