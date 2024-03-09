@@ -132,7 +132,17 @@ i {
 	border-radius: 6px;
 	margin: auto;
 	margin-top: 25px;
+
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
 }
+
+.card.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 .card-text {
 	font-weight: 400;
 	font-size: 19px;

@@ -22,3 +22,14 @@ function menuCloseFuncion() {
 	menuSrc.style.display = "none";
 	settingsSrc.style.display = "block";
 }
+
+document.addEventListener("DOMContentLoaded", function() {
+	const cards = document.querySelectorAll(".card");
+
+	cards.forEach((card, index) => {
+		setTimeout(() => {
+			card.classList.add("show");
+		}, index * 40); // Adjust the delay time as needed
+	});
+});
+
