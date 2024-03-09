@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function() {
 	cards.forEach((card, index) => {
 		setTimeout(() => {
 			card.classList.add("show");
-		}, index * 40); // Adjust the delay time as needed
+		}, index * 100); // Adjust the delay time as needed
 	});
 });
 

@@ -190,7 +190,7 @@ footer i {
   font-weight: 600;
   font-size: 30px;
   margin-top: 58px;
-  animation: fadeIn 0.8s ease-in-out;
+  animation: fadeIn 0.5s ease-in-out;
 }
 
 @keyframes slideInFromLeft {
@@ -211,7 +211,7 @@ footer i {
   width: 85%;
   font-size: 20px;
   font-weight: 500;
-  animation: slideInFromLeft 0.7s ease-in-out;
+  animation: slideInFromLeft 0.8s ease-in-out;
 }
 
 @keyframes bounceInFromTop {
@@ -262,4 +262,47 @@ footer i {
   margin-right: 13px;
   margin-top: 15px;
   animation: rotateFadeIn 1s ease-in-out;
+}
+
+.footer-icons {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.footer-icons a {
+  margin: 0 10px;
+  opacity: 0;
+}
+
+.left-icon {
+  animation: slideInFromLeft 1s ease forwards;
+}
+
+.right-icon {
+  animation: slideInFromRight 1s ease forwards;
+}
+
+.bottom-left-icon {
+  animation: slideInFromBottomLeft 1s ease forwards;
+}
+
+.bottom-right-icon {
+  animation: slideInFromBottomRight 1s ease forwards;
+}
+
+.footer-icons {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex; /* Initially display as flex */
+  opacity: 0; /* Initially set opacity to 0 */
+  transition: opacity 0.5s ease; /* Add transition for opacity */
+}
+
+.footer-icons a {
+  margin: 0 10px;
 }
