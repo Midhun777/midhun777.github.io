@@ -1,7 +1,7 @@
 :root {
-	--bg-color: #0F172A;
-	--card-color: #1E293B;
-	--font-color: #fff;
+	--bg-color:#1A1A23;
+	--card-color: #242333;
+	--font-color: #FFFFFF;
 	--menu-color: #1E293BCF;
 }
 
@@ -46,13 +46,13 @@ i {
 .menu {
 	position: fixed;
 	border: 1px solid var(--font-color);
-	border-radius: 5px;
+	border-radius: 6px;
 	height: 400px;
 	width: 280px;
 	z-index: 999;
 	text-align: right;
 	background: transparent;
-	backdrop-filter: blur(5px);
+	backdrop-filter: blur(10px);
 	background-color: var(--menu-color);
 	top: calc(50% - 200px);
 	left: calc(50% - 140px);
@@ -134,7 +134,6 @@ i {
 	margin: auto;
 	margin-top: 25px;
 }
-
 .card-text {
 	font-weight: 400;
 	font-size: 19px;
