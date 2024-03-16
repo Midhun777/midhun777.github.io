@@ -32,5 +32,3 @@ document.addEventListener("DOMContentLoaded", function() {
 		}, index * 100); // Adjust the delay time as needed
 	});
 });
-
-
