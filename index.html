@@ -49,65 +49,38 @@
         </div>
       </nav>
 
-      <!-- Hero Section (Terminal/IDE Style) -->
+      <!-- Hero Section (Tech Minimalist) -->
       <section class="min-h-screen flex items-center justify-center pt-20 px-4 relative">
-        <div class="w-full max-w-4xl animate-fade-in-up">
-          
-          <!-- Terminal Window -->
-          <div class="bg-[#1e1e1e] rounded-xl overflow-hidden shadow-2xl shadow-black/50 border border-white/10 font-mono text-sm md:text-base">
-            <!-- Window Header -->
-            <div class="bg-[#2d2d2d] px-4 py-2 flex items-center justify-between border-b border-white/5">
-              <div class="flex gap-2">
-                <div class="w-3 h-3 rounded-full bg-[#ff5f56]"></div>
-                <div class="w-3 h-3 rounded-full bg-[#ffbd2e]"></div>
-                <div class="w-3 h-3 rounded-full bg-[#27c93f]"></div>
-              </div>
-              <div class="text-text-muted text-xs">midhun_mathew.js — Portfolio</div>
-              <div class="w-14"></div> <!-- Spacer for balance -->
-            </div>
-
-            <!-- Window Content -->
-            <div class="p-6 md:p-10 text-gray-300 leading-relaxed">
-              <div class="mb-4">
-                <span class="text-purple-400">const</span> <span class="text-blue-400">developer</span> = {
-              </div>
-              <div class="pl-8 mb-2">
-                <span class="text-red-400">name</span>: <span class="text-green-400">'Midhun Mathew'</span>,
-              </div>
-              <div class="pl-8 mb-2">
-                <span class="text-red-400">role</span>: <span class="text-green-400">'Frontend Developer'</span>,
-              </div>
-              <div class="pl-8 mb-2">
-                <span class="text-red-400">skills</span>: [<span class="text-green-400">'React'</span>, <span class="text-green-400">'Tailwind'</span>, <span class="text-green-400">'Node.js'</span>, <span class="text-green-400">'MongoDB'</span>],
-              </div>
-              <div class="pl-8 mb-4">
-                <span class="text-red-400">status</span>: <span class="text-green-400">'Building the Future'</span>
-              </div>
-              <div class="mb-6">
-                };
-              </div>
-
-              <div class="flex items-center gap-2 text-green-400">
-                <span>&gt;</span>
-                <span class="typing-effect border-r-2 border-green-400 pr-1 animate-blink">console.log(developer.status);</span>
-              </div>
-              <div class="mt-2 text-white/80">
-                "Building the Future"
-              </div>
-              
-              <div class="mt-8 flex flex-wrap gap-4">
-                <a href="#projects" class="px-6 py-2 bg-primary/20 text-primary border border-primary/50 rounded hover:bg-primary/30 transition-colors">
-                  ./view_projects.sh
-                </a>
-                <a href="/Midhun_Mathew_CV.pdf" target="_blank" class="px-6 py-2 bg-white/5 text-text-muted border border-white/10 rounded hover:bg-white/10 transition-colors">
-                  ./download_cv.sh
-                </a>
-              </div>
-            </div>
+        <div class="text-center max-w-5xl mx-auto animate-fade-in-up">
+          <div class="inline-flex items-center gap-2 mb-8 px-4 py-2 rounded-full border border-primary/30 bg-primary/10 text-xs font-mono text-primary tracking-wide">
+            <span class="relative flex h-2 w-2">
+              <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
+              <span class="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
+            </span>
+            Available for Hire
           </div>
+          
+          <h1 class="text-4xl md:text-6xl font-bold tracking-tighter text-text-main mb-6 leading-none">
+            MIDHUN <br />
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary via-secondary to-accent">MATHEW</span>
+          </h1>
+          
+          <p class="text-lg md:text-xl text-text-muted max-w-2xl mx-auto mb-12 leading-relaxed font-light">
+            I'm <span class="text-white font-semibold">Midhun Mathew</span>, a frontend developer crafting pixel-perfect, accessible, and performant web experiences.
+          </p>
 
-          <!-- Tech Stack Marquee (Static for now) -->
-          <div class="mt-16 text-center">
+          <div class="flex flex-col sm:flex-row items-center justify-center gap-6">
+            <a href="#projects" class="group relative px-8 py-4 bg-white text-black rounded-full font-bold hover:bg-primary hover:text-black transition-all overflow-hidden">
+              <span class="relative z-10">View Projects</span>
+              <div class="absolute inset-0 bg-primary transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300"></div>
+            </a>
+            <a href="/Midhun_Mathew_CV.pdf" target="_blank" class="px-8 py-4 bg-transparent border border-white/20 text-white rounded-full font-bold hover:bg-white/5 transition-all hover:border-white/50">
+              Download CV
+            </a>
+          </div>
+          
+          <!-- Tech Stack Marquee (Static for now, implies motion) -->
+          <div class="mt-20 pt-10 border-t border-white/5">
             <p class="text-xs text-text-muted uppercase tracking-widest mb-6">Powered By</p>
             <div class="flex justify-center gap-8 md:gap-12 opacity-50 grayscale hover:grayscale-0 transition-all duration-500">
                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" class="w-8 h-8 md:w-10 md:h-10" alt="React">
@@ -117,7 +90,6 @@
                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" class="w-8 h-8 md:w-10 md:h-10" alt="Git">
             </div>
           </div>
-
         </div>
       </section>
 
